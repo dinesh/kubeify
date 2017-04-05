@@ -111,7 +111,7 @@ body {
   background-color: #fff;
   min-height: 60px;
   margin: 0;
-  border-bottom: 0; }
+  border-bottom: 1px solid #f6f1f6; }
 
 .navbar-brand {
   padding: 5px 0 15px 0;
@@ -567,3 +567,54 @@ body {
   font-weight: 300;
   color: #21c0d6;
   font-size: 24px; }
+
+/*----About----*/
+.about-banner {
+  background-color: #fff;
+  padding: 50px 0; }
+
+.about-banner-msg {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center; }
+
+.about-banner-msg figure img {
+  height: 60px;
+  width: auto; }
+
+.about-banner-msg h1 {
+  font-weight: 300;
+  line-height: 50px; }
+
+.about-msg {
+  background-color: #fafbfc;
+  padding: 40px 0;
+  text-align: center; }
+
+.about-msg p {
+  display: block;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 34px;
+  font-size: 20px;
+  color: #706f75;
+  font-weight: 300; }
+
+.about-team {
+  background-color: #fff;
+  padding: 40px 0; }
+
+.about-team h2 {
+  color: #2176cc;
+  font-size: 24px; }
+
+.about-team-msg {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center; }
+
+.about-team-msg p {
+  font-size: 20px;
+  color: #706f75;
+  line-height: 32px;
+  font-weight: 300; }
