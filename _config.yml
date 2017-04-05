@@ -1,13 +1,13 @@
 # Site settings
-title: DataCol
+title: Kubeify
 email: dinesh@codecrux.com
 description: > # this means to ignore newlines until "baseurl:"
-  Datacol is the easiest way to connect salesforce to your back-office data system.
+    Make your cloud native transformation with Kubernetes and support from kubeify's team of experts
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://datacol.io" # the base hostname & protocol for your site
-twitter_username: datacol
-github_username:  datacol
+url: "http://kubeify.io" # the base hostname & protocol for your site
+twitter_username: kubeify
+github_username:  kubeify
 
 # Build settings
 markdown: kramdown
