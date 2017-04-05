@@ -82,11 +82,15 @@ body {
   border-color: #ccc;
 }
 .section-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.section-header h2 {
   position: relative;
-  font-size: 28px;
+  font-size: 44px;
   padding-bottom: 10px;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   font-weight: 700;
   text-align: center;
 }
@@ -263,26 +267,59 @@ body {
   font-size: 22px;
   font-weight: 300;
 }
+.banner-msg .btn {
+  width: 200px;
+  font-size: 18px;
+  margin-top: 10px;
+}
 /*------Services------*/
 .services-wraper {
   background-color: #fbfdfc;
   padding: 40px 0;
 }
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
+.service-list::after,
+.service-list::before {
+  content: '';
+  display: table;
+}
+.service-list::after {
+  clear: both;
+}
+.service-list > li {
+  display: block;
+  width: 50%;
+  float: left;
+  clear: both;
+}
+.service-list > li:nth-child(2n) {
+  float: right;
+  clear: none;
+}
 .service-item {
-  // background-color: #fbfdfc;
   padding: 25px;
-  margin-bottom: 25px;
-  min-height: 350px;
+  min-height: 370px;
+}
+.service-list > li:nth-child(odd) {
+  border-right: 1px solid #ddd;
+}
+.service-list > li:nth-child(1),
+.service-list > li:nth-child(2) {
+  border-bottom: 1px solid #ddd;
 }
 .service-item figure {
   display: block;
   width: 100px;
   height: 100px;
-  padding: 10px;
   border-radius: 50%;
   margin-right: 15px;
   float: left;
-  background-color: #b7e8ec;
 }
 .service-item-txt {
   overflow: hidden;
@@ -291,17 +328,18 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
 }
 .service-item h4 {
-  font-size: 20px;
+  font-size: 24px;
   color: $primary-color;
   margin-top: 0;
+  font-weight: 700;
 }
 .service-item p {
   font-size: 16px;
-  color: #111;
+  color: #222;
   font-weight: 300;
+  line-height: 1.6em;
 }
 .service-item ul,
 .benfit-item ul {
@@ -309,7 +347,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   padding-left: 20px;
-  color: #111;
+  color: #222;
   text-align: left;
 }
 .service-item ul li {
@@ -326,11 +364,27 @@ body {
 }
 .benfit-item h4 {
   color: $btn-color;
+  margin-top: 0;
+}
+.benfit-item figure {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.benfit-item figure img {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+.benfit-item-txt {
+  overflow: hidden;
+  padding-left: 15px;
 }
 .benfit-item-txt p {
   color: #222;
   font-size: 16px;
   font-weight: 300;
+  line-height: 1.6em;
 }
 /*-----why-----*/
 .why-wraper {
@@ -461,7 +515,7 @@ body {
   position: relative;
   display: block;
   width: 48%;
-  padding-left: 50px;
+  padding-left: 60px;
   float: left;
   clear: both;
   margin-bottom: 20px;
