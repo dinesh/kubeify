@@ -358,3 +358,36 @@ body {
   font-weight: 300;
   font-size: 16px;
 }
+/*------why-kubernetes-------*/
+.kubernetes-banner {
+  position: relative;
+  height: 400px;
+  padding: 5% 0;
+  background: url('../images/kube-banner.jpg') no-repeat center /cover;
+}
+.kubernetes-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.kube-msg {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.why-kuber-msg {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 15px;
+  text-align: center;
+}
+.why-kuber-msg h6 {
+  font-size: 26px;
+  line-height: 1.4em;
+  color: #435e7c;
+  font-weight: 300;
+}
