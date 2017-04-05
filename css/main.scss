@@ -358,6 +358,54 @@ body {
   font-weight: 300;
   font-size: 16px;
 }
+/*-----contact-------*/
+.contact-wraper {
+  padding: 40px 0;
+  background-color: #31303a;
+  text-align: center;
+}
+.contact-wraper h4 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.contact-wraper .btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.contact-section {
+  background-color: #f6f8f6;
+  padding: 40px 0;
+  min-height: 100vh;
+}
+.contact-header h2 {
+  margin-bottom: 25px;
+}
+.address-list {
+  list-style: none;
+  padding: 0;
+  padding-left: 40px;
+  margin: 25px 0 0;
+}
+.address-list > li {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  font-size: 18px;
+  color: #4e5860;
+  font-weight: 300;
+}
+.address-list li i {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  font-size: 18px;
+  color: $primary-color;
+}
 /*------why-kubernetes-------*/
 .kubernetes-banner {
   position: relative;
@@ -390,4 +438,96 @@ body {
   line-height: 1.4em;
   color: #435e7c;
   font-weight: 300;
+}
+.kuber-benfits {
+  background-color: #fdfdfe;
+  padding: 40px 0;
+  border-top: 1px solid #f6f6f6;
+}
+.benfit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.benfit-list::after,
+.benfit-list::before {
+  content: '';
+  display: table;
+}
+.benfit-list::after {
+  clear: both;
+}
+.benfit-list > li {
+  position: relative;
+  display: block;
+  width: 48%;
+  padding-left: 50px;
+  float: left;
+  clear: both;
+  margin-bottom: 20px;
+}
+.benfit-list > li:nth-child(2n) {
+  float: right;
+  clear: none;
+}
+.kuber-benfit-item figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.kuber-benfit-item figure img {
+  width: 40px;
+  height: 40px;
+}
+.kuber-benfit-item h4 {
+  margin-top: 0;
+  color: $primary-color;
+}
+.kuber-benfit-item p {
+  font-weight: 300;
+  font-size: 16px;
+}
+.kuber-architecture {
+  padding: 40px 0;
+  background-color: #e5eff8;
+}
+.kuber-architecture h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.kuber-architecture figure {
+  display: block;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+.kuber-community {
+  padding: 40px 0;
+  background-color: #f6f8f6;
+}
+.kuber-c-item {
+  background-color: #fff;
+  min-height: 180px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
+.kuber-c-item figure {
+  width: 140px;
+  height: 180px;
+  float: left;
+}
+.kuber-c-item figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.kuber-c-item .kuber-c-item-msg {
+  overflow: hidden;
+  padding: 15px;
+}
+.kuber-c-item-msg h4 {
+  font-weight: 300;
+  color: $seondary-color;
+  font-size: 24px;
 }
