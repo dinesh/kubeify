@@ -40,7 +40,11 @@ body {
   font-family: "Ubuntu", Helvetica, sans-serif;
   font-size: 14px;
 }
-
+@media (max-width: 767px) {
+  .navbar-collapse {
+    margin-top: 5px;
+  }
+}
 .btn {
   height: 50px;
   line-height: 48px;
@@ -93,6 +97,11 @@ body {
   margin-bottom: 5px;
   font-weight: 700;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .section-header h2 {
+    font-size: 30px;
+  }
 }
 .section-header p {
   display: block;
@@ -272,6 +281,15 @@ body {
   font-size: 18px;
   margin-top: 10px;
 }
+@media (max-width: 767px) {
+  .banner {
+    min-height: auto;
+    padding: 50px 0;
+  }
+  .banner-msg h1 {
+    font-size: 30px;
+  }
+}
 /*------Services------*/
 .services-wraper {
   background-color: #fbfdfc;
@@ -298,6 +316,11 @@ body {
   float: left;
   clear: both;
 }
+@media (max-width: 991px) {
+  .service-list > li {
+    width: 100%;
+  }
+}
 .service-list > li:nth-child(2n) {
   float: right;
   clear: none;
@@ -320,6 +343,12 @@ body {
   border-radius: 50%;
   margin-right: 15px;
   float: left;
+}
+@media (max-width: 767px) {
+  .service-item figure {
+    float: none;
+    margin-bottom: 12px;
+  }
 }
 .service-item-txt {
   overflow: hidden;
@@ -444,6 +473,11 @@ body {
   padding-left: 40px;
   margin: 25px 0 0;
 }
+@media (max-width: 767px) {
+  .address-list {
+    margin-top: 30px;
+  }
+}
 .address-list > li {
   position: relative;
   display: block;
@@ -493,6 +527,12 @@ body {
   color: #435e7c;
   font-weight: 300;
 }
+@media (max-width: 767px) {
+  .kubernetes-banner {
+    height: auto;
+    padding: 60px 0;
+  }
+}
 .kuber-benfits {
   background-color: #fdfdfe;
   padding: 40px 0;
@@ -523,6 +563,16 @@ body {
 .benfit-list > li:nth-child(2n) {
   float: right;
   clear: none;
+}
+@media (max-width: 767px) {
+  .benfit-list > li {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+  }
+  .benfit-list > li:nth-child(2n) {
+    float: none;
+  }
 }
 .kuber-benfit-item figure {
   position: absolute;
